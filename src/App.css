@@ -1,0 +1,43 @@
+
+
+
+
+
+/* .app-container { */
+  /* display: grid; */
+
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+ /* grid-template-rows: 1fr 1fr 1fr 1fr;   */
+
+  /* grid-template-areas:
+  "2 3"
+  "2 3"
+  "1 1"  */
+
+   
+/* } */
+
+
+.item1 { grid-area: nati }
+.item2 { grid-area: mosh }
+.item3 { grid-area: ran }
+.item4 { grid-column:amos  } 
+
+/* .item1 { grid-column: 2/3; grid-row: 1/2; }
+.item2 { grid-column: 1/2; grid-row: 2/7; }
+.item3 { grid-column: 2/3;  grid-row: 2/5; }
+.item4 { grid-column: 2/3; grid-row: 5/7 ;  }  */
+
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;  
+   grid-template-areas:
+  ".   nati"
+  "mosh ran"
+  "mosh ran "
+  "mosh ran"
+  "mosh amos"
+  "mosh amos" 
+
+}
